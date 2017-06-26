@@ -1,0 +1,16 @@
+<h2>SEARCH</h2>
+
+<!-- WHICH VERB to use in the request -- method='get' is what send the string into the URL>
+<!--    |                   -->
+<form method="get" action="/results">
+  <!--         |             |-->
+  <!--       app.get     ('/results'(...)=>) -->
+  <label for="search-term-input"> Search the Web </label>
+  <input type='search' id='search-term-input' name='searchTerm'>
+  <br>
+  <input id='interest-box' type='checkbox' name='interestThing'>
+  <label for='interest-box'> Interested in Pizza? </label>
+  <br>
+  <button> Search Now! </button>
+
+</form>
